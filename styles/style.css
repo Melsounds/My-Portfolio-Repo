@@ -463,9 +463,9 @@ section {
   margin: 1.5rem;
 }
 .portfolios .portfolio-item .hover-items .icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 .portfolios .portfolio-item .hover-items .icons .icon {
   background-color: var(--color-primary);
